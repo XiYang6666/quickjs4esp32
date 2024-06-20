@@ -3,36 +3,36 @@
     "description": "QuickJS Javascript Engine for Arduino",
     "keywords": "JavaScript",
     "authors": [
-      {
-        "name": "Fabrice Bellard",
-        "url": "https://bellard.org/quickjs/"
-      },
-      {
-        "name": "XiYang6666",
-        "url": "https://github.com/XiYang6666/QuickJs4Arduino"
-      }
+        {
+            "name": "Fabrice Bellard",
+            "url": "https://bellard.org/quickjs/"
+        },
+        {
+            "name": "XiYang6666",
+            "url": "https://github.com/XiYang6666/QuickJs4Arduino"
+        }
     ],
     "repository": {
-      "type": "git",
-      "url": "https://github.com/XiYang6666/QuickJs4Arduino.git"
+        "type": "git",
+        "url": "https://github.com/XiYang6666/QuickJs4Arduino.git"
     },
     "version": "0.0.1",
     "framework": "arduino",
     "platforms": "*",
     "build": {
-      "flags": "-DCONFIG_VERSION=\\\"2023-11-18\\\" -DEMSCRIPTEN",
-      "srcFilter": [
-        "+<*.c>",
-        "+<*.h>",
-        "-<tests/>",
-        "-<examples/>",
-        "-<doc/>",
-        "-<qjs.c>",
-        "-<qjsc.c>",
-        "-<quickjs-libc.c>",
-        "-<quickjs-libc.h>",
-        "-<unicode_gen.c>",
-        "-<run-test262.c>"
-      ]
+        "flags": "-DCONFIG_VERSION=\\\"2023-11-18\\\" -DEMSCRIPTEN",
+        "srcFilter": [
+            "+<*.c>",
+            "+<*.h>",
+            "-<tests/>",
+            "-<examples/>",
+            "-<doc/>",
+            "-<qjs.c>",
+            "-<qjsc.c>",
+            "-<quickjs-libc.c>",
+            "-<quickjs-libc.h>",
+            "-<unicode_gen.c>",
+            "-<run-test262.c>"
+        ]
     }
-  }
+}
